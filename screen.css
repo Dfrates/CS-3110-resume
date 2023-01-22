@@ -69,7 +69,7 @@ a {
     display: flex;
     position:fixed;
     width: 100%;
-    height: 105vh;
+    height: 100%;
     justify-content: center;
     background: center / cover url("images/texture2.jpg");
 }
@@ -99,10 +99,23 @@ a {
 .name {
     order: 1;
     text-align: center;
-    width: 90%;
+    width: 100%;
     padding-top: 10px;
     font-size: 6.8vw;
     font-weight: bolder;
+    animation: color-change 10s infinite;
+}
+
+@keyframes color-change {
+    0% {
+        color: #ffcc00;
+    }
+    50% {
+        color: #ff0000;
+    }
+    100% {
+        color: #ffcc00;
+    }
 }
 
 .contact-info {
@@ -226,14 +239,14 @@ a:hover {
 
 .description-items {
     list-style-type: square;
-    list-style-position: inside;
+    list-style-position: outside;
     margin-left: 1vw;
     margin-right: 1vw;
 }
 
 .detail {
     font-size: 1.2rem;
-    margin: 5px 0;
+    margin: 10px 0;
     
 }
 
@@ -242,8 +255,4 @@ a:hover {
     flex-direction: column;
     width: 100%;
     padding: 1vw 1vw 0;
-}
-
-.work {
-    width: 100%;
 }

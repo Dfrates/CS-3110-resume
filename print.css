@@ -65,12 +65,17 @@ a {
     src: url(https://fonts.googleapis.com/css?family=Audiowide);
 }
 
+@page{
+    margin: 1;
+}
+
 .container {
     display: flex;
+    position:fixed;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     justify-content: center;
-    background: center / cover url("images/texture.jpg");
+    background: center / cover url("images/texture2.jpg");
 }
 
 .resume-container {
@@ -79,17 +84,15 @@ a {
     overflow-x: hidden;
     margin: top 1rem;
     flex-direction: column;
-    width: 70%;
-    height: 100%;
+    width: 2550px;
+    height: 3300px;
     background: white;
-    border: 2px solid black;
 }
 
 .resume-header {
     display: flex;
     position: sticky;
-    background-color: black;
-    color: white;
+    color: black;
     top: 0;
     flex-direction: column;
     border-bottom: 2px solid black;
@@ -98,9 +101,9 @@ a {
 .name {
     order: 1;
     text-align: center;
-    width: 90%;
+    width: 100%;
     padding-top: 10px;
-    font-size: 7vw;
+    font-size: 6.8vw;
     font-weight: bolder;
 }
 
@@ -119,9 +122,9 @@ a {
     width: 100%;
 }
 .contacts a {
-    color: white;
     text-decoration: none;
 }
+
 .contacts li {
     padding: 0 1.3vw 0;
     justify-self: center;
@@ -131,9 +134,9 @@ a {
 
 .title {
     width: 100%;
-    font-size: 3vw;
+    font-size: 3.7vw;
     font-weight: bold;
-    margin: 1.5vw 1vw 0;
+    margin: 3vw 1vw 0;
     
 }
 
@@ -195,7 +198,7 @@ a {
 
 .skill-items {
     padding: 1vw 1vw 0;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
 }
 
 .skill-items .item {
@@ -221,14 +224,14 @@ a {
 
 .description-items {
     list-style-type: square;
-    list-style-position: inside;
+    list-style-position: outside;
     margin-left: 1vw;
     margin-right: 1vw;
 }
 
 .detail {
     font-size: 1.2rem;
-    
+    margin: 5px 0;
 }
 
 .project-items {
@@ -236,8 +239,4 @@ a {
     flex-direction: column;
     width: 100%;
     padding: 1vw 1vw 0;
-}
-
-.work {
-    width: 100%;
 }
