@@ -87,7 +87,10 @@ a {
 
 .resume-header {
     display: flex;
-    justify-content: center;
+    position: sticky;
+    background-color: black;
+    color: white;
+    top: 0;
     flex-direction: column;
     border-bottom: 2px solid black;
 }
@@ -95,7 +98,7 @@ a {
 .name {
     order: 1;
     text-align: center;
-    width: 100%;
+    width: 90%;
     padding-top: 10px;
     font-size: 7vw;
     font-weight: bolder;
@@ -115,7 +118,10 @@ a {
 .contacts {
     width: 100%;
 }
-
+.contacts a {
+    color: white;
+    text-decoration: none;
+}
 .contacts li {
     padding: 0 1.3vw 0;
     justify-self: center;
@@ -123,12 +129,18 @@ a {
     display: inline;
 }
 
-.education-title, .skills-title, .projects-title {
+.title {
     width: 100%;
     font-size: 3vw;
     font-weight: bold;
     margin: 1.5vw 1vw 0;
     
+}
+
+.objective-text {
+    padding-left: 1vw;
+    margin-top: 1vw;
+    font-size: 1.5rem;
 }
 
 .bar {
@@ -169,12 +181,12 @@ a {
 
 }
 
-.skill-items .title {
+.skill-items .group {
     font-weight: bolder;
     font-size: 1.6rem;
 }
 
-.skills-container {
+.skills {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -226,3 +238,6 @@ a {
     padding: 1vw 1vw 0;
 }
 
+.work {
+    width: 100%;
+}
