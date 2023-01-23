@@ -236,6 +236,10 @@ a:hover {
     padding-bottom: 2vh;
 }
 
+.project-name {
+    font-weight: bold;
+}
+
 .tools {
     font-size: 1rem;
     font-style: italic;
