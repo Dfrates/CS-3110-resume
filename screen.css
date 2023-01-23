@@ -248,12 +248,11 @@ a:hover {
 .description-items {
     list-style-type: square;
     list-style-position: outside;
-    margin-left: 1vw;
-    margin-right: 1vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
 }
 
 .detail {
     font-size: 1.5rem;
     margin: 10px 0;
-    
 }
