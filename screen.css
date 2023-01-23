@@ -124,7 +124,7 @@ a {
     justify-content: center;
     text-align: center;
     width: 100%;
-    font-size: 1.5vw;
+    font-size: 1.8rem;
     font-weight: bold;
     align-self: flex-end;
 }
@@ -135,10 +135,14 @@ a {
 .contacts a {
     color: white;
     text-decoration: none;
+    transition: all 500ms;
 }
 
 a:hover {
     color: #ffcc00;
+    font-size: 2rem;
+    font-size-adjust: 3.5rem;
+
 }
 .contacts li {
     padding: 0 1.3vw 0;
