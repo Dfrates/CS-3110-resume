@@ -77,7 +77,7 @@ a {
 .resume-container {
     display: flex;
     overflow: hidden;
-    overflow-y: scroll;
+    overflow-y: auto;
     margin: top 1rem;
     flex-direction: column;
     width: 70%;
